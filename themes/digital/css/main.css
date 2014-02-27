@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+
+}
+.clear {clear:both;}
+
+#loading-screen {
+    position:absolute; 
+    top:0; 
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index:999999; 
+    min-height:100%; 
+    min-width:100%; 
+    display:block; 
+    background:#FFF; 
+    text-align:center;
+}
+.logocontainer{
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    text-align: right;
+    top: 120px;
+}
+a{
+    text-decoration: none;
+}
+
+.outer {  
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.inner {
+    display: inline-block;
+    position: relative;
+    right: -50%;
+    // height: 100%;
+}
+
+.inner img {
+    position: relative;
+    left: -50%;
+    //  height: 100%;
+    margin: 0 0 -10px;
+}
+
+#logo img {width:100%; max-width:150px; padding:0 5%;}
+.sub-title h1 {padding:0 5%; font-size:32px; color:#FFF; font-weight:normal;text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);}
+.main-menu{
+    padding: 0 0 5%;
+    position: relative;
+}
+.main-menu ul {border-bottom:1px solid #FFF; margin:0; padding:0; list-style:none; width:100%;}
+.main-menu ul li {float:left; padding:0 10px; margin:15px 0; border-left:1px solid #FFF;}
+.main-menu ul li:first-child {border-left:0px none;}
+.main-menu ul li a {
+    color:#FFF; 
+    text-transform:uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.black ul {
+    border-bottom:1px solid #000;
+}
+.black ul li {
+    border-left:1px solid #000;
+}
+.black ul li a {
+    color:#000; 
+}
+.black h1{
+    color:#000;
+    text-shadow:none;
+}
+.black {
+    color:#000; 
+}
+
+#social {   position: absolute;
+            right: 20px;}
+#social a {margin-right:10px;}
+#social a img { max-width:35px; padding:0;}
+
+#black ul li a {
+    color:#FFF;
+}
+#case-details a {min-width:100%; min-height:100%; display:block;}
+#case-details h2, #case-details h3 {text-transform:uppercase; color:#FFF;}
+#case-details h2 {font-size:20px; margin:0 0 10px 0;}
+#case-details h3 {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.backgroundimg{
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*    z-index: -10000;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background:  no-repeat center center / cover; 
+}
+
+.downarrow{
+    bottom: 30px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000000;
+}
+
+.container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+#menu-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    z-index: 10000000;
+}
+
+@media (min-width: 680px) {
+
+    .aboutouter{
+        margin:0 200px;
+    }
+
+    .about-banner{
+        text-align: center;
+    }
+    .about-banner img{
+        width: 100%;
+    }
+    .Aboutcontainer{
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+
+    .main-menu  {
+        padding: 0 0 2%;
+    } 
+
+
+    #case-details {
+        display: block;
+        margin: 0 0 0 40px;
+        width: 300px;
+    }
+
+    #logo {
+        text-align: initial;
+        width: 20%;
+        margin-left: 30px;
+
+    }
+
+    .inner {
+        position:fixed; 
+        top:-50%; 
+        left:-50%; 
+        width:200%; 
+        height:200%;
+        z-index: -1000;
+    }
+    .inner img {
+        position:absolute; 
+        top:0; 
+        left:0; 
+        right:0; 
+        bottom:0; 
+        margin:auto; 
+        min-width:50%;
+        min-height:50%;
+    }
+    .main-menu{
+        float: right;
+        width: 75%;
+    }
+
+
+
+}
+
+

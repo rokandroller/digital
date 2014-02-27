@@ -1,0 +1,183 @@
+.backgroundimg{
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+    background:  no-repeat center center / cover;
+    position: relative; 
+}
+
+html, body {
+    height: 100% !important;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#slide1{
+    height: 1140px;
+}
+
+#slide2{
+    height: 1030px;
+
+    background: #550108;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzU1MDEwOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iIzlmMDkyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iIzlmMDkyYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1NTAxMDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left, #550108 1%, #9f092a 20%, #9f092a 80%, #550108 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%,#550108), color-stop(20%,#9f092a), color-stop(80%,#9f092a), color-stop(100%,#550108));
+    background: -webkit-linear-gradient(left, #550108 1%,#9f092a 20%,#9f092a 80%,#550108 100%);
+    background: -o-linear-gradient(left, #550108 1%,#9f092a 20%,#9f092a 80%,#550108 100%);
+    background: -ms-linear-gradient(left, #550108 1%,#9f092a 20%,#9f092a 80%,#550108 100%);
+    background: linear-gradient(to right, #550108 1%,#9f092a 20%,#9f092a 80%,#550108 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#550108', endColorstr='#550108',GradientType=1 );
+
+
+}
+#slide3{
+    background-image:url('../images/AlfaCS/slide3-bg.jpg');
+    height: 900px;
+
+}
+.container p{
+    color: #FFFFFF;
+}
+.firstcontentwrap{
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+}
+.firstcontent {
+    margin: 0 auto;
+    width: 620px;
+}
+.firstcontent h1{
+    text-align: center;
+}
+.Content1{
+    position: absolute;
+    top: 82px;
+    width: 370px;
+    z-index: 1006;
+}
+.Content2{
+    margin: 0 auto;
+    padding-top: 40px;
+    right: 100px;
+    width: 511px;
+}
+.Content2 h1{
+    color: #000;
+} 
+
+#mitobg{
+    background:  no-repeat top center / cover;   
+}
+#alfa-romeo-logo {
+    float: right;
+    padding-top: 50px;
+}
+#mito_slide1{
+    position: absolute;
+    left: -114px;
+    top: 350px;
+    opacity: 0;
+}
+#mito_slide2{
+    position: absolute;
+    right: -114px;
+    top:350px;
+    opacity: 0;
+}
+#mito_slide3{
+    position: absolute;
+    text-align: center;
+    top: 320px;
+    width: 100%;
+    opacity: 0;
+}
+#mito-game-1{
+    position: absolute;
+    right: 45px;
+    top: 140px;
+    opacity: 0;
+}
+#mito-game-2{
+    position: absolute;
+    right: -175px;
+    top: 40px;
+    opacity: 0;
+}
+#gear{
+    position: absolute;
+    right: 40px;
+    top: 320px;
+    opacity: 0;
+}
+
+#track {
+    position: absolute;
+    top: 670px;
+    width: 1200px;
+    overflow: hidden;
+}
+#track2 {
+    position: absolute;
+    top: 1000px;
+    width: 1200px;
+    overflow: hidden;
+}
+#speedometer{
+    position: absolute;
+    top: 720px;
+}
+#arrow{
+    left: 140px;
+    position: absolute;
+    top: 750px;
+}
+#speedometer2{
+    position: absolute;
+    right: 0;
+    top: 720px;;
+}
+#arrow2{
+    position: absolute;
+    right: 145px;
+    top: 750px;
+}
+#radio{
+    position: absolute;
+    right: 330px;
+    top: 770px;
+}
+#alfa-mito_slide4{
+    left: -40px;
+    position: absolute;
+    top: 240px;
+    z-index: 50;
+    opacity: 0;
+}
+#alfa-mito_slide5{
+    position: absolute;
+    right: -30px;
+    top: 170px;
+    opacity: 0;
+}
+#car{
+    bottom: 120px;
+    left: 530px;
+    position: absolute;
+    z-index: 1000;
+}
+

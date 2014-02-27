@@ -1,0 +1,60 @@
+html, body {
+    height: 100% !important;
+}
+
+.ninegrid{
+    float: left;
+    height: 33.33%;
+    overflow: hidden;
+    width: 33.33%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background:  no-repeat center center / cover;
+    position: relative;
+}
+.ninegrid img{
+    width: 100%;
+}
+
+.gridtitle{
+    background: #000000;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+.gridsubTitle{
+    position: relative;
+    height: 20px;
+    padding: 0 20px;    
+  }
+
+.gridtitleauter{
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.trianglewrap{
+    position: absolute;
+    top: -27px;
+    width: 100%;    
+}   
+.triangle{    
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 16px 27px 16px;
+    border-color: transparent transparent #000000 transparent;
+    line-height: 0px;
+    _border-color: #ffffff #ffffff #000000 #ffffff;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#ffffff');
+    margin: 0 auto;
+}

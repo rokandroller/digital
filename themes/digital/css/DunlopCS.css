@@ -1,0 +1,164 @@
+
+
+html, body {
+    height: 100% !important;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: normal;
+}
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.backgroundimg{
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+    background:  no-repeat top center / cover;
+    position: relative; 
+}
+
+.backgroundimg2{
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+    background:  no-repeat center center / cover;
+    position: relative; 
+}
+
+
+#splash{
+    height: 380px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+
+}
+#slide1{
+    height: 1040px;
+    position: relative;
+}
+
+#slide2{
+}
+#slide3{
+}
+
+.firstcontent{
+    float: right;
+    position: absolute;
+    right: 0;
+    width: 370px;
+    opacity: 0;
+    z-index: 100;
+    top: 50px;
+}
+.Content1{
+    position: relative;
+    width: 640px;
+    z-index: 1006;
+    padding-top: 20px;
+    color: #FFFFFF;
+    padding: 20px 0 10px;
+}
+.Content2{
+    padding-top: 20px;
+    position: absolute;
+    right: 100px;
+    width: 470px;
+    color: #FFFFFF;
+}
+
+
+#biometic{
+    left: -190px;
+    position: absolute;
+    top: 70px;
+    opacity: 0;
+    z-index: -5;
+}
+#biometiccircle{
+    left: 300px;
+    position: absolute;
+    top: 300px;
+    z-index: 100;
+    opacity: 0;
+}
+#FB{
+    left: 550px;
+    position: absolute;
+    top: 590px;
+    z-index: 100;
+    opacity: 0;
+
+}
+
+.actionzonecontainer{
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+#actionzonegreen{
+    background: none repeat scroll 0 0 #8AC53E;
+    /*    height: 115px;*/
+    margin: 30px 0 -1px 629px;
+    width: 28px;
+}
+#actionzone{
+
+}
+#actionzoneblack{
+    background: none repeat scroll 0 0 #221F1F;
+    height: 130px;
+    margin: -5px 0 -1px 350px;
+    width: 29px;
+}
+.greenwrap{
+    background: none repeat scroll 0 0 #8AC53E;
+    margin-top: -100px;
+}
+#dunlopiphone {
+    position: absolute;
+    right: -70px;
+    top: -330px;
+    z-index: 500;
+    opacity: 0;
+
+}
+#VERDASCOgreen{
+    background-attachment: fixed;
+    height: 380px;
+    background-position: top center;
+}
+#verdasco-shark-green{
+    background-attachment: fixed;
+    height: 430px;
+    margin-bottom: -420px;
+    background-position: top center;
+}
+#action-zone-screen1 {
+    left: 100px;
+    position: absolute;
+    top: 300px;
+    z-index: 1001;
+    opacity: 0;
+
+}
+#action-zone-screen2 {
+    right: 100px;
+    position: absolute;
+    top: 300px;
+    z-index: 1000;
+opacity: 0;
+}
